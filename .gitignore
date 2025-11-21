@@ -1,0 +1,7 @@
+# Créer le fichier .gitignore
+cat > .gitignore << EOF
+node_modules/
+.env
+npm-debug.log
+.DS_Store
+EOF
